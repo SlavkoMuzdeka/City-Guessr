@@ -1,0 +1,20 @@
+﻿/images/coloseum.png#Australija#Francuska#Italija#Italija
+/images/big_ben.png#Kanada#Njemacka#Engleska#Engleska
+/images/eiffel_tower.png#Kina#Francuska#Japan#Francuska
+/images/chicen_itza.png#Meksiko#Indija#Peru#Meksiko
+/images/sydney_opera_house.png#Australija#USA#Kanada#Australija
+/images/branderburg_gate.png#Njemacka#Belgija#Danska#Njemacka
+/images/hoover_dam.png#Rusija#Kina#USA#USA
+/images/cn_tower.png#Japan#Singapur#Kanada#Kanada
+/images/pompeii.png#Italija#Ceska#Poljska#Italija
+/images/mount_fuji.png#Hrvatska#Japan#Spanija#Japan
+/images/seoul_tower.png#S.Koreja#Japan#J.Koreja#J.Koreja
+/images/pyramids_of_giza.png#Egipat#Meksiko#Pakistan#Egipat
+/images/stonehenge.png#Hong Kong#Japan#Engleska#Engleska
+/images/louvre_museum.png#Francuska#Singapur#Grcka#Francuska
+/images/tower_bridge.png#Kanada#USA#Engleska#Engleska
+/images/petra.png#Irak#Jordan#Juzna Afrika#Jordan
+/images/machu_picchu.png#Kambodza#Brazil#Peru#Peru
+/images/potala_palace.png#El Salvador#Kina#Danska#Kina
+/images/mount_rushmore.png#Iran#Hong Kong#USA#USA
+/images/london_eye.png#Japan#Australia#Engleska#Engleska

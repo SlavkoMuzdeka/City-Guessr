@@ -1,0 +1,38 @@
+﻿<Window x:Class="Kviz.Results"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kviz"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Rezulat" Height="350" Width="520" ResizeMode="NoResize" Background="#FF002627">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*" />
+            <RowDefinition Height="0.3*" />
+            <RowDefinition Height="0.3*" />
+            <RowDefinition Height="0.2*" />
+            <RowDefinition Height="0.01*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.00*"/>
+            <ColumnDefinition Width="0.71*"/>
+            <ColumnDefinition Width="0.51*"/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="  Vaš skor je:" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" Width="250" FontSize="40" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White" />
+        <Label x:Name="result" Content="Label" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="35" Foreground="White" />
+
+        <Button Grid.Row="3" Grid.Column="1" Content="Pregled rezultata" FontSize="30" Width="232" Height="70" Click="ShowResults"
+                Background="#FFFFFF41" Style="{StaticResource RoundButton}" BorderThickness="4" BorderBrush="#FF9E0909" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+        <Button Grid.Row="3" Grid.Column="3" Content="Kraj" FontSize="30" Width="100" Height="70" Click="Exit"
+                Background="#FFFFFF41" Style="{StaticResource RoundButton}" BorderThickness="4" BorderBrush="#FF9E0909" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="2" />
+
+        <Button Grid.Row="3" Grid.Column="2" Content="Igraj opet" FontSize="30"  Width="165" Height="70" Click="PlayAgain"
+               Background="#FFFFFF41" Style="{StaticResource RoundButton}" BorderThickness="4" BorderBrush="#FF9E0909" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+
+    </Grid>
+</Window>
